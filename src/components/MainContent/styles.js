@@ -26,7 +26,7 @@ export const Container = styled.main`
         font-size: 12px;
         color: #667088;
         position: absolute;
-        right: 400px;
+        right: 555px;
        }
   }
 
