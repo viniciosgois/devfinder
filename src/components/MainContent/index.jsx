@@ -15,7 +15,6 @@ import { BiBuildings } from 'react-icons/bi';
 export function MainContent() {
   const { users } = useUser();
   const date = new Date(users.created_at);
-  console.log(users);
 
   
   return(

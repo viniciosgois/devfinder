@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
   * {
     font-family: 'Noto Sans Mono', monospace;
-    color: #fff;
+    color: ${props => props.theme.fontColor};
 
     padding: 0;
     margin: 0;
@@ -11,12 +11,13 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #131c2f;
+    background: ${props => props.theme.body};
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
-
+  
   button {
     cursor: pointer;
   }
