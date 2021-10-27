@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
+<<<<<<< HEAD
   background: ${props => props.theme.content};
+=======
+  background: #1f2a48;
+>>>>>>> ac8d9ab4bdd36b8e7342b0c951ec909218236444
   width: 680px;
   height: auto;
   border: none;
@@ -51,7 +55,11 @@ export const Container = styled.main`
 
     height: 70px;
     width: 430px;
+<<<<<<< HEAD
     background: ${props => props.theme.body};
+=======
+    background: #131c2f;
+>>>>>>> ac8d9ab4bdd36b8e7342b0c951ec909218236444
     align-items: center;
     border: none;
     border-radius: 10px;
