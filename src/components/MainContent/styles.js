@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-  background: ${props => props.theme.content};
+  background: #1f2a48;
   width: 680px;
   height: auto;
   border: none;
   border-radius: 10px;
-  
+
   .content-container {
     display: flex;
   }
@@ -51,7 +51,7 @@ export const Container = styled.main`
 
     height: 70px;
     width: 430px;
-    background: ${props => props.theme.body};
+    background: #131c2f;
     align-items: center;
     border: none;
     border-radius: 10px;

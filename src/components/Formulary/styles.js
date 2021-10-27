@@ -17,13 +17,9 @@ export const Container = styled.div`
       border: none;
       border-radius: 10px;
       
-      background: ${props => props.theme.content};
+      background: #1f2a48;
       font-size: 18px;
       font-family: 'Noto Sans Mono', monospace;
-
-      :focus {
-        outline: none;
-      }
 
       ::placeholder {
         color: #667088;
@@ -55,7 +51,6 @@ export const Container = styled.div`
       border-radius: 5px;
       
       background: #0179ff;
-      color: #fff;
       font-family: 'Noto Sans Mono', monospace;
       font-size: 14px;
 }
