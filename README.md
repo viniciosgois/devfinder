@@ -1,42 +1,18 @@
-
-
-<h1 align="center">
-    
-    devfinder
-</h1>
-
-<div>
-    <p align="center">
-        <em>
-            (Coloque aqui as linguagens que construíram seu Projeto.)<br>
-            (Put here the languages that built your Project.)<br><br>
-        </em>
-    <a href="https://www.linkedin.com/in/yuri-silva99/" target="_blank">
-        <img src="https://img.shields.io/static/v1?label=Author&message=Yuri&color=00ba6d&style=for-the-badge&logo=LinkedIn" alt="Author: Yuri">
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/static/v1?label=Language&message=Typescript&color=blue&style=for-the-badge&logo=Typescript" alt="Language: Typescript">
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/static/v1?label=Language&message=Javascript&color=yellow&style=for-the-badge&logo=JavaScript" alt="Language: Javascript">
-    </a>
-  <br>
-    <a  href="#">
-      <img  src="https://img.shields.io/static/v1?label=Framework&message=Angular&color=e23237&style=for-the-badge&logo=Angular"  alt="Language: Angular">
-    </a>
-    <a href="#">
-      <img  src="https://img.shields.io/static/v1?label=Language&message=Bootstrap&color=563d7c&style=for-the-badge&logo=Bootstrap"  alt="Language: Bootstrap">
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/static/v1?label=Language&message=SASS&color=ff69b4&style=for-the-badge&logo=SASS" alt="Language: SASS">
-    </a>
-    <a href="#">
-		<img  src="https://img.shields.io/static/v1?label=Language&message=Java&color=red&style=for-the-badge&logo=Java"  alt="Language: Java">
-	</a>
-	<a href="#">
-		<img src="https://img.shields.io/static/v1?label=Framework&message=Springboot&color=green&style=for-the-badge&logo=Ghost"  alt="Language: Springboot">
-	</a>
-    </p>
+<div align="center">
+	<img  width="512" alt="React-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" />
+	<h1>Devfinder</h1>
+	
+</div>
+<div align="center">
+	<a href="https://www.linkedin.com/in/vinicios-gois-5b695621a/" target="_blank">
+        	<img src="https://img.shields.io/static/v1?label=Author&message=Vini&color=00ba6d&style=for-the-badge&logo=LinkedIn" alt="Author: Vini">
+    	</a>
+	<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="tech"/>
+	<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+	<img src="https://img.shields.io/static/v1?label=Language&message=Javascript&color=yellow&style=for-the-badge&logo=JavaScript" alt="Language: Javascript">
+	<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="tech" />
+	<img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" alt="tech" />
+	
 </div>
 
 ## Table of Contents
