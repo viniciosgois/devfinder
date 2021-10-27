@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
 
-function App() {
+import UserProvider from './context/User';
+
+import { ThemeProvider } from 'styled-components';
+import { darkTheme, lightTheme } from './styles/themes/themes';
+import { Header } from './components/Header';
+import { Formulary } from './components/Formulary';
+import { MainContent } from './components/MainContent';
+
+import { GlobalStyle } from './styles/global';
+
+export default function App() {
+  const [theme, setTheme] = useState('dark');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <UserProvider>
+      <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
+        <GlobalStyle />
+        <Header theme={theme} setTheme={setTheme}/>
+        <Formulary />
+        <MainContent />
+      </ThemeProvider>
+    </UserProvider>
   );
-}
-
-export default App;
+};
