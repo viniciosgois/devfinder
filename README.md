@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-    ![](src/assets/react-logo.png)
+    
     devfinder
 </h1>
 
