@@ -17,7 +17,6 @@ export const Container = styled.div`
       border: none;
       border-radius: 10px;
       
-<<<<<<< HEAD
       background: ${props => props.theme.content};
       font-size: 18px;
       font-family: 'Noto Sans Mono', monospace;
@@ -26,12 +25,6 @@ export const Container = styled.div`
         outline: none;
       }
 
-=======
-      background: #1f2a48;
-      font-size: 18px;
-      font-family: 'Noto Sans Mono', monospace;
-
->>>>>>> ac8d9ab4bdd36b8e7342b0c951ec909218236444
       ::placeholder {
         color: #667088;
       }
@@ -62,10 +55,7 @@ export const Container = styled.div`
       border-radius: 5px;
       
       background: #0179ff;
-<<<<<<< HEAD
       color: #fff;
-=======
->>>>>>> ac8d9ab4bdd36b8e7342b0c951ec909218236444
       font-family: 'Noto Sans Mono', monospace;
       font-size: 14px;
 }

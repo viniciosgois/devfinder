@@ -13,11 +13,7 @@ export const Container = styled.header`
     }
 
     button {
-<<<<<<< HEAD
       color: #000;
-=======
-      color: #fff;
->>>>>>> ac8d9ab4bdd36b8e7342b0c951ec909218236444
       background: none;
       border: none;
 

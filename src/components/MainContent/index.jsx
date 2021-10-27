@@ -15,12 +15,7 @@ import { BiBuildings } from 'react-icons/bi';
 export function MainContent() {
   const { users } = useUser();
   const date = new Date(users.created_at);
-<<<<<<< HEAD
-=======
-  console.log(users);
 
->>>>>>> ac8d9ab4bdd36b8e7342b0c951ec909218236444
-  
   return(
     <>
    { ObjectIsEmpty(users) ? 
