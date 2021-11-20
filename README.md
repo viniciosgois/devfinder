@@ -28,7 +28,7 @@
 
 ## 📌About
 
-<p align="center">The project was developed by me and i just copied the layout from the internet.<p/>
+<p align="center">The project was developed by me and i just copied the layout from the <a href="https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6">frontendmentor</a>.<p/>
 <hr />
 
 <div align="center">
